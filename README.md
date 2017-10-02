@@ -11,7 +11,7 @@ This problem focuses on the financial industry but the technical implementation 
 Ingested historical and projected interest rates, streamed current FX rates, streamed historically traded contracts, calculated the price of each trade (100K contracts), re-calculated the value of each trade every time there is a change in FX rates
 
 # Source of Data
-Generated Swap contract data (ex: start date, end date, frequency of payments etc.), generated random FX and projected interest rate data
+Generated (and ingested via kafka) Swap contract data (ex: start date, end date, frequency of payments etc.), generated random FX and projected interest rate data
 
 # Pipeline
 !["Game of Derivatives" pipleine](https://github.com/github81/gameofderivatives/blob/master/images/pipeline.png)
