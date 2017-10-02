@@ -12,7 +12,7 @@ from cassandra.cluster import Cluster
 # Setting up connections to cassandra
 
 # Change the bolded text to your seed node public dns (no < or > symbols but keep quotations. Be careful to copy quotations as it might copy it as a special character and throw an error. Just delete the quotations and type them in and it should be fine. Also delete this comment line
-cluster = Cluster(['ec2-34-235-99-222.compute-1.amazonaws.com'])
+cluster = Cluster(['<public-dns>'])
 session = cluster.connect('swappg')
 
 @app.route('/')
