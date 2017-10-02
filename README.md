@@ -8,7 +8,10 @@ Companies with large asset base trade in the derivatives market to hedge their a
 This problem focuses on the financial industry but the technical implementation can be used in any industry which require fast computation with realtime analytics
 
 # Stream Processing
-Ingest historical and projected interest rates, stream current FX rates, stream historically traded contracts, calculate the price of each trade (100K contracts), re-calculate the value of each trade every time there is a change in FX rates
+Ingested historical and projected interest rates, streamed current FX rates, streamed historically traded contracts, calculated the price of each trade (100K contracts), re-calculated the value of each trade every time there is a change in FX rates
 
 # Source of Data
-Generate Swap contract data (ex: start date, end date, frequency of payments etc.), get realtime FX and interest rate data from Nasdaq or Bloomberg and also generate
+Generated Swap contract data (ex: start date, end date, frequency of payments etc.), generated random FX and projected interest rate data
+
+# Pipeline
+!["Game of Derivatives" pipleine](http://https://github.com/github81/gameofderivatives/images/pipeline.png)
