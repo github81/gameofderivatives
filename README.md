@@ -14,4 +14,4 @@ Ingested historical and projected interest rates, streamed current FX rates, str
 Generated (and ingested) Swap contract data (ex: start date, end date, frequency of payments etc.), generated random FX and projected interest rate data
 
 # Pipeline
-!["Game of Derivatives" pipleine](https://github.com/github81/gameofderivatives/blob/master/images/pipeline.png)
+!["Game of Derivatives" pipleine](images/pipeline.png?raw=true "gameofderivatives")
