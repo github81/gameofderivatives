@@ -1,4 +1,4 @@
-# gameofderivatives
+# "Game Of Derivatives" - Market is dark and full of thieves.
 insight data engineering - fall 2017
 
 # Business case
