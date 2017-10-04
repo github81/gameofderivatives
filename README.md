@@ -17,7 +17,7 @@ Ingested historical and projected interest rates, streamed current FX rates, str
 Generated (and ingested) Swap contract data (ex: start date, end date, frequency of payments etc.), generated random FX and projected interest rate data
 
 # Pipeline
-<img src="images/pipeline.png.tiff" alt=“#gameofderivatives” width=“75px”/>
+<img src="images/pipeline.png" alt=“#gameofderivatives” width=“75px”/>
 
 # Project highlights
 - Continuous streaming of data and writing to Cassandra, 
