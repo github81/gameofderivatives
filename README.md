@@ -31,3 +31,6 @@ Generated (and ingested) Swap contract data (ex: start date, end date, frequency
 - Recalculate the value of trades as exchange rates change frequently and write to Cassandra - Solution: continuously read the trades from Redis as the exchange rates change, price, stream and write to Cassandra
 
 # Project front-end
+<img src="images/portfolios.png" alt=“#portfolios” width=“75px”/>
+<img src="images/drilldown.png" alt=“#portfoliodrilldown” width=“75px”/>
+
