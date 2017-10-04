@@ -15,3 +15,11 @@ Generated (and ingested) Swap contract data (ex: start date, end date, frequency
 
 # Pipeline
 ![Game of Derivatives](https://raw.githubusercontent.com/github81/gameofderivatives/master/images/pipeline.png.tiff)
+
+# Project highlights
+- Continuous streaming of data and writing to Cassandra, 
+- Usage of Redis database to store 4GB of trade contracts
+- 3 sets of Kafka producers, spark streaming consumers
+- Kafka streaming topics by currency
+- Pricing algorithm
+
